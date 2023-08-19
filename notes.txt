@@ -1,0 +1,12 @@
+html stands for hyper text markup language
+
+
+there are two types of element
+
+inline-block-element
+jitni required hai utni width lete hein
+
+block-element
+puri width lete hein ?
+
+
