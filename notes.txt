@@ -1,5 +1,9 @@
 html stands for hyper text markup language
 
+https://www.w3schools.com/html/html_intro.asp
+
+https://www.w3schools.com/html/html_attributes.asp
+
 
 there are two types of element
 
@@ -8,5 +12,9 @@ jitni required hai utni width lete hein
 
 block-element
 puri width lete hein ?
+
+download winrar software
+
+https://www.win-rar.com/download.html?&L=0
 
 
