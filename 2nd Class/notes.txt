@@ -1,0 +1,9 @@
+div is like a box
+har box ki koi width & height hogi
+
+
+https://www.w3schools.com/css/css_intro.asp
+
+CSS stands for Cascading Style Sheets
+
+

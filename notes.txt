@@ -11,10 +11,14 @@ inline-block-element
 jitni required hai utni width lete hein
 
 block-element
-puri width lete hein ?
+puri width lete hein
 
 download winrar software
 
 https://www.win-rar.com/download.html?&L=0
 
 
+
+
+
+self close tag example: <br />
