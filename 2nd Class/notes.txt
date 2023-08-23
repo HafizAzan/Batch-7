@@ -1,9 +1,15 @@
+https://www.w3schools.com/css/css_intro.asp
+
+CSS stands for Cascading Style Sheets
+
+
 div is like a box
 har box ki koi width & height hogi
 
 
-https://www.w3schools.com/css/css_intro.asp
+ap id ka attribute use karsakte hein normal selector ki jagah
 
-CSS stands for Cascading Style Sheets
+use # in css for id attribute
+
 
 

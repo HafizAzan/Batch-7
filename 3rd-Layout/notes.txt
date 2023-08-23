@@ -1,0 +1,14 @@
+two qism k space hote hein
+
+box k andar se space
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+
+
+box k bahar se space
+margin-top:10px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:10px;
