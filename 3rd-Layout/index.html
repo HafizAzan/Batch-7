@@ -22,6 +22,37 @@ height: 35px;
 padding-top:10px;
 padding-left:10px;
 }
+
+#sidebar{
+ background-color:yellow;
+ margin-top:10px;
+ height:80px;
+ width:70%;
+ float:left;
+}
+
+#right-side{
+ width:28%;
+ background-color:purple;
+ float:right;
+ margin-top:10px;
+ height: 80px;
+ margin-left:10px;
+}
+
+#footer{
+ background-color:green;
+ width:100%;
+ height:35px;
+ margin-top:10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 </style>
 </head>
 
@@ -32,6 +63,20 @@ padding-left:10px;
 
 <div id="menu">
   This is a Menu
+</div>
+
+<div class="clearfix">
+ <div id="sidebar">
+ This is a Sidebar
+ </div>
+
+ <div id="right-side">
+ This is Right Side
+ </div>
+</div>
+
+<div id="footer">
+This is a Footer
 </div>
 </body>
 </html>
