@@ -9,6 +9,10 @@
  margin:0px;
  font-family: 'Trebuchet MS';
 }
+body{
+ background-color:#f7f7f7;
+ padding-bottom:40px;
+}
 #header{
 background-color:#e7e7e7;
 padding-left:10%;
@@ -41,6 +45,36 @@ font-size:18px;
 #main-image img{
  width:100%;
 }
+
+#main-section{
+ /* 
+ width:80%;
+ margin:0 auto;
+ */
+
+  padding-left:10%;
+  padding-right:10%;
+  
+}
+.sub-items{
+ width:22%;
+ float:left;
+ text-align:center;
+ margin-right:2%;
+}
+.sub-items h4{
+ color:#4e4e4e;
+ margin-top:15px;
+ margin-bottom:15px;
+}
+.sub-items p{
+ color:#6a6a6a;
+}
+#items-container{
+ margin-top:30px;
+ padding-bottom:30px;
+ border-bottom:1px solid #cbc8c8;
+}
 .clearfix::after{
  display:table;
  content:"";
@@ -72,6 +106,34 @@ font-size:18px;
 
 <div id="main-image">
 	<img src="./images/background-image.png" alt="main-image" />
+</div>
+
+<div id="main-section">
+    <div id="items-container" class="clearfix">
+   	<div class="sub-items">
+          <img src="./images/icon-1.png" />
+          <h4>Pellentesque</h4>
+	  <p>Nulla vitae libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</p>
+        </div>
+
+        <div class="sub-items">
+          <img src="./images/icon-2.png" />
+          <h4>Consectetur</h4>
+	  <p>Vestibulum id ligula porta euismod semper. Aenean lacinia bibe</p>
+        </div>
+
+        <div class="sub-items">
+          <img src="./images/icon-3.png" />
+          <h4>Tristiquet</h4>
+	  <p>Fusce dapibus, cursus commodo, tortor mauris condimentum nibh.</p>
+        </div>
+
+        <div class="sub-items">
+          <img src="./images/icon-4.png" />
+          <h4>Fermentum</h4>
+	  <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venena.</p>
+        </div>
+    </div>
 </div>
 
 </body>
