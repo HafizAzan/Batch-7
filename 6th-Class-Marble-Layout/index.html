@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Marble Layout</title>
 
@@ -102,6 +103,9 @@ color:#4e4e4e;
 .latest-work-items:last-child{
  margin-right:0px;
 }
+.latest-work-items img{
+ width:100%;
+}
 #testimonials{
  background-color:#efefef;
  text-align:center;
@@ -149,6 +153,59 @@ color:#4e4e4e;
  display:table;
  content:"";
  clear:both;
+}
+
+
+@media(max-width: 1200px){
+    #navigation ul li{
+     float:none;
+     margin-bottom:20px;
+    }
+    #header{
+     height:auto;
+    }
+
+    #logo{
+     width:100%;
+     float:none;
+     text-align:center;
+    }
+    #navigation{
+     width:100%;
+     float:none;
+     text-align:center;
+    }
+    #navigation ul{
+	padding:0px;
+        margin-top:20px;
+    }
+}
+
+
+@media(max-width:600px){
+ .sub-items{
+   float:none;
+   width:100%;
+   margin-bottom:20px;
+ }
+ .latest-work-items{
+   float:none;
+   width:100%;
+   margin-bottom:20px;
+  }
+ #testimonials{
+  padding-left:10%;
+  padding-right:10%;
+ }
+ .footer-items{
+   float:none;
+   width:100%;
+   text-align:center;
+   margin-bottom:40px;
+  }
+  #footer p{
+  text-align:center;
+  }
 }
 </style>
 </head>
@@ -275,7 +332,7 @@ eget metus. Duis mollis, est non commodo luctus erat porttitor.</p>
        </div>
     </div>
 
-    <p>2022 Marble. All Right reserved. Theme by elemis.</p>
+    <p>&copy; 2022 Marble. All Right reserved. Theme by elemis.</p>
   </div>
 </div>
 

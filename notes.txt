@@ -22,3 +22,25 @@ https://www.win-rar.com/download.html?&L=0
 
 
 self close tag example: <br />
+
+
+https://www.w3schools.com/html/html_entities.asp
+
+&copy;	is default entity for copyright
+
+
+Responsive Definition
+
+https://www.w3schools.com/css/css_rwd_intro.asp
+
+1-we need this tag in head element for responsive
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+2-Media Query Example
+
+https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery
+
+
+
+
+
