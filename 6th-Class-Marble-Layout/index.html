@@ -149,11 +149,22 @@ color:#4e4e4e;
  margin-bottom:20px;
  font-size:23px;
 }
+
+#twitter-footer p{
+ position:relative;
+}
+
+#twitter-footer p img{
+position:absolute;
+left: -19px;
+top: 5px;
+}
 .clearfix::after{
  display:table;
  content:"";
  clear:both;
 }
+
 
 
 @media(max-width: 1200px){
@@ -181,6 +192,17 @@ color:#4e4e4e;
     }
 }
 
+@media(max-width:900px){
+ .footer-items{
+   float:none;
+   width:100%;
+   text-align:center;
+   margin-bottom:40px;
+  }
+  #footer p{
+  text-align:center;
+  }
+}
 
 @media(max-width:600px){
  .sub-items{
@@ -197,15 +219,6 @@ color:#4e4e4e;
   padding-left:10%;
   padding-right:10%;
  }
- .footer-items{
-   float:none;
-   width:100%;
-   text-align:center;
-   margin-bottom:40px;
-  }
-  #footer p{
-  text-align:center;
-  }
 }
 </style>
 </head>
@@ -310,11 +323,13 @@ eget metus. Duis mollis, est non commodo luctus erat porttitor.</p>
           support@longwave.com
         </p>
       </div>
-      <div class="footer-items">
+      <div class="footer-items" id="twitter-footer">
       	<h3>Twitter</h3>
-        <p>Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-        <p>Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</p>
-        <p>Vestibulum id ligula porta euismod semper. Maecenas faucibus mollis.</p>
+        <p>
+<img src="./images/tweet.png" />
+Aenean lacinia bibendum nulla sed leo posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+        <p> <img src="./images/tweet.png" />Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</p>
+        <p> <img src="./images/tweet.png" /> Vestibulum id ligula porta euismod semper. Maecenas faucibus mollis.</p>
       </div>
       <div class="footer-items">
          <h3>Popular Posts</h3>
