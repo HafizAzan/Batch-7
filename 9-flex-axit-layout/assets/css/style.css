@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 25px 0px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+#sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation ul{
+    display: flex;
+}
+#navigation ul li{
+    list-style-type: none;
+    margin-right: 40px;
+    color: #a7a7a7;
+}
+#navigation ul li:last-child{
+    margin-right: 0px;
+}
+#introduction-background-section{
+    height: 650px;
+    background-image: url("../images/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
