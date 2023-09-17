@@ -1,5 +1,15 @@
+/* APPLYING CUSTOM FONT */
+@font-face {
+    font-family: "Myraid Pro Regular";
+    src: url('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff');
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
 *{
     margin: 0;
+    font-family:  "Myraid Pro Regular";
 }
 
 header{
@@ -32,4 +42,99 @@ header{
     background-image: url("../images/image.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+#introduction-sub-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#introduction-left-side{
+    flex-basis: 40%;
+}
+#introduction-left-side img{
+    margin-bottom: 30px;
+}
+#introduction-left-side h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-weight: 100;
+}
+#introduction-left-side hr{
+    width: 80px;
+    margin-bottom: 40px;
+    height: 3px;
+    background-color: white;
+    border: none;
+}
+#introduction-left-side p{
+    color: #a7a7a7;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#introduction-left-side button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+#trail-form-header {
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    padding: 12px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#trail-form-header span{
+    color: #ff8b38;
+}
+
+#trail-form-body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:0px 30px;
+}
+#trail-form-body input:first-child{
+    margin-top: 20px;
+}
+#trail-form-body input:last-child{
+    margin-bottom: 40px;
+}
+#trail-form-body input{
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding: 15px 0px;
+    padding-left: 20px;
+}
+
+#trail-form-body input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a7a7a7;
+  opacity: 1; /* Firefox */
+}
+
+#trail-form-body input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a7a7a7;
+}
+
+#trail-form-body input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #a7a7a7;
+}
+#introduction-right-side{
+    flex-basis: 28%;
+}
+#trail-form-button{
+    background-color: #ff8b38;
+    width: 100%;
+    padding: 15px 0px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
