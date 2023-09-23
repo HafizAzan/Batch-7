@@ -237,3 +237,54 @@ header{
 button:hover{
     cursor: pointer;
 }
+#sub-list-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px auto;
+}
+#sub-list-section img{
+    width: 100%;
+    min-width: 450px;
+}
+#sub-list-section-second-child{
+    flex-basis: 50%;
+}
+#sub-list-section-second-child h2{
+    margin-bottom: 20px;
+}
+#sub-list-section-second-child hr{
+    margin-bottom: 30px;
+    width: 60px;
+    height: 2px;
+    border: none;
+    background-color: #ff8b38;
+}
+#sub-list-section-second-child p{
+    color: #a7a7a7;
+}
+.sub-list-icon-container{
+    margin-top: 40px;
+}
+.sub-list-icon-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-list-icon-container div:nth-child(1) i{
+    font-size: 20px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    padding: 12px 10px;
+    border-radius: 50%;
+}
+.sub-list-icon-container div:nth-child(2){
+    flex-basis: 90%;
+}
+.sub-list-section-main{
+    background-color: #f5f5f5;
+    padding: 50px 0px;
+}
+
+.sub-list-section-duplicate{
+ flex-direction: row-reverse;
+}
