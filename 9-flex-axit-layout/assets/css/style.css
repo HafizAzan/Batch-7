@@ -288,3 +288,89 @@ button:hover{
 .sub-list-section-duplicate{
  flex-direction: row-reverse;
 }
+
+#awesome-container{
+    padding-top: 120px;
+    text-align: center;
+}
+.common-heading-one{
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.common-seperator-one{
+    border: none;
+    background-color: #ff8b38;
+    height: 2px;
+    width: 60px;
+    margin: 0px auto 25px auto;
+}
+.common-paragraph{
+    color: #a7a7a7;
+}
+#feature-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-items{
+    flex-basis: 30%;
+}
+.feature-items h3{
+    margin: 20px 0px;
+}
+#pricing-option-container{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 0px;
+    margin-top: 60px;
+}
+
+#main-pricing-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.main-pricing-header{
+    background-color: #333333;
+    color: white;
+    padding: 15px 0px;
+    border-bottom: 1px solid white;
+}
+
+.main-pricing-plan{
+  background-color: #333333;
+ padding: 15px 0px;
+ color: white;
+}
+.main-pricing-plan h2{
+    font-size: 90px;
+}
+.main-pricing-plan h2 span{
+    font-size: 30px;
+}
+.main-pricing-seperator{
+    background-color: #ff8b38;
+    height: 6px;
+}
+.main-pricing-body{
+    background-color: white;
+}
+.package-body{
+    padding: 0px;
+}
+.package-body-items{
+    list-style-type: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.main-pricing-container-item{
+    flex-basis: 30%;
+}
+
+.main-pricing-container-item:nth-child(2) .main-pricing-seperator{
+    height: auto !important;
+    padding: 10px 0px;
+    color: white;
+}
