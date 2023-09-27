@@ -6,18 +6,24 @@
     font-weight: normal;
     
 }
+:root{
+    --white:white;
+    --primary-color:#ff8b38;
+    --black: black;
+    --paragraph-color:#a7a7a7;
+    --border-color:#eaeaea;
+    --common-background-color:#f5f5f5;
+    --tabs-color:#333333;
+}
 
 *{
     margin: 0;
     font-family:  "Myraid Pro Regular";
 }
 
-body{
-    padding-bottom: 100px;
-}
 header{
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     padding: 25px 0px;
 }
 .container{
@@ -35,7 +41,7 @@ header{
 #navigation ul li{
     list-style-type: none;
     margin-right: 40px;
-    color: #a7a7a7;
+    color: var(--paragraph-color);
 }
 #navigation ul li:last-child{
     margin-right: 0px;
@@ -52,7 +58,7 @@ header{
 #introduction-sub-container{
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: var(--white);
 }
 #introduction-left-side{
     flex-basis: 40%;
@@ -70,37 +76,37 @@ header{
     width: 80px;
     margin-bottom: 40px;
     height: 3px;
-    background-color: white;
+    background-color: var(--white);
     border: none;
 }
 #introduction-left-side p{
-    color: #a7a7a7;
+    color: var(--paragraph-color);
     font-size: 18px;
     margin-bottom: 20px;
 }
 #introduction-left-side button{
     background-color: transparent;
-    color: white;
-    border: 1px solid white;
+    color: var(--white);
+    border: 1px solid var(--white);
     font-size: 16px;
     padding: 10px 30px;
 }
 #trail-form-header {
-    background-color: #f5f5f5;
-    color: black;
+    background-color: var(--common-background-color);
+    color: var(--black);
     text-align: center;
     padding: 12px 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 #trail-form-header span{
-    color: #ff8b38;
+    color: var(--primary-color);
 }
 
 #trail-form-body{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--white);
     padding:0px 30px;
 }
 #trail-form-body input:first-child{
@@ -112,10 +118,10 @@ header{
 #trail-form-body input{
     margin-bottom: 20px;
     border: none;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid var(--border-color);
     padding: 15px 0px;
     padding-left: 20px;
-     color: #a7a7a7;
+     color: var(--paragraph-color);
 }
 
 #trail-form-body input:focus{
@@ -123,26 +129,26 @@ header{
 }
 
 #trail-form-body input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #a7a7a7;
+  color: var(--paragraph-color);
   opacity: 1; /* Firefox */
 }
 
 #trail-form-body input:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #a7a7a7;
+  color: var(--paragraph-color);
 }
 
 #trail-form-body input::-ms-input-placeholder { /* Microsoft Edge */
-  color: #a7a7a7;
+  color: var(--paragraph-color);
 }
 #introduction-right-side{
     flex-basis: 28%;
 }
 #trail-form-button{
-    background-color: #ff8b38;
+    background-color: var(--primary-color);
     width: 100%;
     padding: 15px 0px;
     border: none;
-    color: white;
+    color: var(--white);
     font-size: 18px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -154,7 +160,7 @@ header{
     align-items: center;
 }
 #social-media-sub-container p{
-    color: #a7a7a7;
+    color: var(--paragraph-color);
     margin-top: 10px;
 }
 #social-media-container{
@@ -170,7 +176,7 @@ header{
     width: 100%;
 }
 #building-container{
-    background-color: #f5f5f5;
+    background-color: var(--common-background-color);
 }
 #building-sub-container{
     display: flex;
@@ -199,13 +205,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333333;
-    color: white;
-    border-bottom: 1px solid white;
+    background-color: var(--tabs-color);
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
     min-height: 104px;
 }
 .active-tab{
-    background-color: #ff8b38;
+    background-color: var(--primary-color);
 }
 .tabs-items:nth-child(1){
     border-top-left-radius: 5px;
@@ -220,11 +226,11 @@ header{
 }
 #building-right-side p{
     margin-bottom: 30px;
-    color: #a7a7a7;
+    color: var(--paragraph-color);
 }
 #building-right-side button{
-    background-color: #ff8b38;
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
     border: none;
     padding: 15px 30px;
     font-size: 16px;
@@ -257,10 +263,10 @@ button:hover{
     width: 60px;
     height: 2px;
     border: none;
-    background-color: #ff8b38;
+    background-color: var(--primary-color);
 }
 #sub-list-section-second-child p{
-    color: #a7a7a7;
+    color: var(--paragraph-color);
 }
 .sub-list-icon-container{
     margin-top: 40px;
@@ -272,8 +278,8 @@ button:hover{
 }
 .sub-list-icon-container div:nth-child(1) i{
     font-size: 20px;
-    color: #ff8b38;
-    border: 2px solid #ff8b38;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
     padding: 12px 10px;
     border-radius: 50%;
 }
@@ -281,7 +287,7 @@ button:hover{
     flex-basis: 90%;
 }
 .sub-list-section-main{
-    background-color: #f5f5f5;
+    background-color: var(--common-background-color);
     padding: 50px 0px;
 }
 
@@ -300,13 +306,13 @@ button:hover{
 }
 .common-seperator-one{
     border: none;
-    background-color: #ff8b38;
+    background-color: var(--primary-color);
     height: 2px;
     width: 60px;
     margin: 0px auto 25px auto;
 }
 .common-paragraph{
-    color: #a7a7a7;
+    color: var(--paragraph-color);
 }
 #feature-container{
     margin-top: 60px;
@@ -320,7 +326,7 @@ button:hover{
     margin: 20px 0px;
 }
 #pricing-option-container{
-    background-color: #f5f5f5;
+    background-color: var(--common-background-color);
     text-align: center;
     padding: 40px 0px;
     margin-top: 60px;
@@ -333,16 +339,16 @@ button:hover{
     align-items: flex-end;
 }
 .main-pricing-header{
-    background-color: #333333;
-    color: white;
+    background-color: var(--tabs-color);
+    color: var(--white);
     padding: 15px 0px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--white);
 }
 
 .main-pricing-plan{
-  background-color: #333333;
+  background-color: var(--tabs-color);
  padding: 15px 0px;
- color: white;
+ color: var(--white);
 }
 .main-pricing-plan h2{
     font-size: 90px;
@@ -351,11 +357,11 @@ button:hover{
     font-size: 30px;
 }
 .main-pricing-seperator{
-    background-color: #ff8b38;
+    background-color: var(--primary-color);
     height: 6px;
 }
 .main-pricing-body{
-    background-color: white;
+    background-color: var(--white);
 }
 .package-body{
     padding: 0px;
@@ -363,7 +369,7 @@ button:hover{
 .package-body-items{
     list-style-type: none;
     padding: 10px 0px;
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom: 1px solid var(--common-background-color);
 }
 .main-pricing-container-item{
     flex-basis: 30%;
@@ -372,5 +378,124 @@ button:hover{
 .main-pricing-container-item:nth-child(2) .main-pricing-seperator{
     height: auto !important;
     padding: 10px 0px;
-    color: white;
+    color: var(--white);
+}
+#customer-reviews-section{
+    text-align: center;
+    padding: 80px 0px;
+}
+#main-reviews-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.main-review-body{
+    padding: 15px 12px;
+    background-color: var(--common-background-color);
+    margin-bottom: 40px;
+    border-radius: 6px;
+    text-align: left;
+    font-style: italic;
+    position: relative;
+}
+.main-review-body img{
+    position: absolute;
+    bottom: -12px;
+    left: 22px;
+}
+.main-reviews-items{
+  flex-basis: 30%;
+}
+.user-information-container{
+    display: flex;
+    align-items: center;
+    column-gap: 22px;
+}
+#stylish-design {
+    background-image: url("../images/u25_state0.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    text-align: center;
+    padding: 60px 0px;
+}
+#stylish-design hr{
+    background-color: var(--white);
+    
+}
+#stylish-design-btn{
+    border: 1px solid var(--white);
+    background-color: transparent;
+    padding: 10px 20px;
+    color: var(--white);
+    margin-top: 20px;
+}
+#contact-us-form-container{
+    text-align: center;
+    padding: 40px 0px;
+}
+#contact-us-form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#contact-us-form input{
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 0px;
+    padding-left: 20px;
+    color: var(--paragraph-color);
+        width: 100%;
+        margin-bottom: 20px;
+}
+
+#contact-us-form input:focus{
+    outline: none;
+}
+
+#contact-us-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--paragraph-color);
+  opacity: 1; /* Firefox */
+}
+
+#contact-us-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--paragraph-color);
+}
+
+#contact-us-form input::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--paragraph-color);
+}
+#contact-us-form textarea{
+    border: none;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--paragraph-color);
+    width: 100%;
+    height: 88%;
+    resize: none;
+}
+#contact-us-form textarea:focus{
+    outline: none;
+}
+
+#contact-us-form div:nth-child(1){
+    flex-basis: 40%;
+}
+
+#contact-us-form div:nth-child(2){
+    flex-basis: 40%;
+}
+#contact-us-btn{
+    border: none;
+    background-color: var(--primary-color);
+    padding: 12px 20px;
+    color: var(--white);
+    border-radius: 4px;
+}
+footer{
+    background-color: var(--black);
+    padding: 20px 0px;
+    text-align: center;
+}
+footer img{
+    margin-bottom: 10px;
 }
