@@ -1,4 +1,16 @@
 /* APPLYING CUSTOM FONT */
+/* https://www.w3schools.com/cssref/css_units.php */
+/* https://nekocalc.com/px-to-rem-converter */
+/* 
+apply rem on 
+
+margin,
+padding,
+line-height,
+width,
+font-size
+
+*/
 @font-face {
     font-family: "Myraid Pro Regular";
     src: url('./fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff');
@@ -24,7 +36,7 @@
 header{
     background-color: var(--black);
     color: var(--white);
-    padding: 25px 0px;
+    padding: 1.563rem 0px;
 }
 .container{
     width: 80%;
@@ -40,7 +52,7 @@ header{
 }
 #navigation ul li{
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 2.5rem;
     color: var(--paragraph-color);
 }
 #navigation ul li:last-child{
@@ -51,7 +63,7 @@ header{
     background-image: url("../images/image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 3.75rem;
     box-sizing: border-box;
     background-attachment: fixed;
 }
@@ -64,38 +76,38 @@ header{
     flex-basis: 40%;
 }
 #introduction-left-side img{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 #introduction-left-side h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-    line-height: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+    line-height: 3.125rem;
     font-weight: 100;
 }
 #introduction-left-side hr{
-    width: 80px;
-    margin-bottom: 40px;
+    width: 5rem;
+    margin-bottom: 2.5rem;
     height: 3px;
     background-color: var(--white);
     border: none;
 }
 #introduction-left-side p{
     color: var(--paragraph-color);
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
 }
 #introduction-left-side button{
     background-color: transparent;
     color: var(--white);
     border: 1px solid var(--white);
-    font-size: 16px;
-    padding: 10px 30px;
+    font-size: 1rem;
+    padding: 0.625rem 1.875rem;
 }
 #trail-form-header {
     background-color: var(--common-background-color);
     color: var(--black);
     text-align: center;
-    padding: 12px 0px;
+    padding: 0.75rem 0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -107,20 +119,20 @@ header{
     display: flex;
     flex-direction: column;
     background-color: var(--white);
-    padding:0px 30px;
+    padding:0px 1.875rem;
 }
 #trail-form-body input:first-child{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 #trail-form-body input:last-child{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 #trail-form-body input{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border: none;
     border-bottom: 1px solid var(--border-color);
-    padding: 15px 0px;
-    padding-left: 20px;
+    padding: 0.938rem 0px;
+    padding-left: 1.25rem;
      color: var(--paragraph-color);
 }
 
@@ -146,22 +158,22 @@ header{
 #trail-form-button{
     background-color: var(--primary-color);
     width: 100%;
-    padding: 15px 0px;
+    padding: 0.938rem 0px;
     border: none;
     color: var(--white);
-    font-size: 18px;
+    font-size: 1.125rem;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 #social-media-sub-container{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 1.25rem 0px;
     align-items: center;
 }
 #social-media-sub-container p{
     color: var(--paragraph-color);
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 #social-media-container{
     border-bottom: 1px solid #d6d6d6;
@@ -181,7 +193,7 @@ header{
 #building-sub-container{
     display: flex;
     justify-content: space-between;
-    padding: 100px 0px;
+    padding: 6.25rem 0px;
 }
 #building-first-item{
     display: flex;
@@ -189,7 +201,7 @@ header{
     flex-basis: 70%;
 }
 #main-tabs-section{
-    flex-basis: 126px;
+    flex-basis: 7.875rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -222,23 +234,23 @@ header{
     border-bottom-right-radius: 5px;
 }
 #building-right-side h2{
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 #building-right-side p{
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     color: var(--paragraph-color);
 }
 #building-right-side button{
     background-color: var(--primary-color);
     color: var(--white);
     border: none;
-    padding: 15px 30px;
-    font-size: 16px;
+    padding: 0.938rem 1.875rem;
+    font-size: 1rem;
     border-radius: 5px;
 }
 
 #building-right-side button:active{
-    margin-top: 5px;
+    margin-top: 0.313rem;
 }
 button:hover{
     cursor: pointer;
@@ -246,21 +258,21 @@ button:hover{
 #sub-list-section{
     display: flex;
     justify-content: space-between;
-    margin: 90px auto;
+    margin: 5.625rem auto;
 }
 #sub-list-section img{
     width: 100%;
-    min-width: 450px;
+    min-width: 28.125rem;
 }
 #sub-list-section-second-child{
     flex-basis: 50%;
 }
 #sub-list-section-second-child h2{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 #sub-list-section-second-child hr{
-    margin-bottom: 30px;
-    width: 60px;
+    margin-bottom: 1.875rem;
+    width: 3.75rem;
     height: 2px;
     border: none;
     background-color: var(--primary-color);
@@ -269,7 +281,7 @@ button:hover{
     color: var(--paragraph-color);
 }
 .sub-list-icon-container{
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .sub-list-icon-container{
     display: flex;
@@ -277,10 +289,10 @@ button:hover{
     align-items: center;
 }
 .sub-list-icon-container div:nth-child(1) i{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
-    padding: 12px 10px;
+    padding: 0.75rem 0.625rem;
     border-radius: 50%;
 }
 .sub-list-icon-container div:nth-child(2){
@@ -288,7 +300,7 @@ button:hover{
 }
 .sub-list-section-main{
     background-color: var(--common-background-color);
-    padding: 50px 0px;
+    padding: 3.125rem 0px;
 }
 
 .sub-list-section-duplicate{
@@ -296,26 +308,26 @@ button:hover{
 }
 
 #awesome-container{
-    padding-top: 120px;
+    padding-top: 11.25rem;
     text-align: center;
 }
 .common-heading-one{
-    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 .common-seperator-one{
     border: none;
     background-color: var(--primary-color);
     height: 2px;
-    width: 60px;
-    margin: 0px auto 25px auto;
+    width: 3.75rem;
+    margin: 0px auto 1.563rem auto;
 }
 .common-paragraph{
     color: var(--paragraph-color);
 }
 #feature-container{
-    margin-top: 60px;
+    margin-top: 3.75rem;
     display: flex;
     justify-content: space-between;
 }
@@ -323,17 +335,17 @@ button:hover{
     flex-basis: 30%;
 }
 .feature-items h3{
-    margin: 20px 0px;
+    margin: 1.25rem 0px;
 }
 #pricing-option-container{
     background-color: var(--common-background-color);
     text-align: center;
-    padding: 40px 0px;
-    margin-top: 60px;
+    padding: 2.5rem 0px;
+    margin-top: 3.75rem;
 }
 
 #main-pricing-container{
-    margin-top: 40px;
+    margin-top: 2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -341,20 +353,20 @@ button:hover{
 .main-pricing-header{
     background-color: var(--tabs-color);
     color: var(--white);
-    padding: 15px 0px;
+    padding: 0.938rem 0px;
     border-bottom: 1px solid var(--white);
 }
 
 .main-pricing-plan{
   background-color: var(--tabs-color);
- padding: 15px 0px;
+ padding: 0.938rem 0px;
  color: var(--white);
 }
 .main-pricing-plan h2{
-    font-size: 90px;
+    font-size: 5.625rem;
 }
 .main-pricing-plan h2 span{
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 .main-pricing-seperator{
     background-color: var(--primary-color);
@@ -368,7 +380,7 @@ button:hover{
 }
 .package-body-items{
     list-style-type: none;
-    padding: 10px 0px;
+    padding: 0.625rem 0px;
     border-bottom: 1px solid var(--common-background-color);
 }
 .main-pricing-container-item{
@@ -377,22 +389,22 @@ button:hover{
 
 .main-pricing-container-item:nth-child(2) .main-pricing-seperator{
     height: auto !important;
-    padding: 10px 0px;
+    padding: 0.625rem 0px;
     color: var(--white);
 }
 #customer-reviews-section{
     text-align: center;
-    padding: 80px 0px;
+    padding: 5rem 0px;
 }
 #main-reviews-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 .main-review-body{
-    padding: 15px 12px;
+    padding: 0.938rem 0.75rem;
     background-color: var(--common-background-color);
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     border-radius: 6px;
     text-align: left;
     font-style: italic;
@@ -400,7 +412,7 @@ button:hover{
 }
 .main-review-body img{
     position: absolute;
-    bottom: -12px;
+    bottom: -0.75rem;
     left: 22px;
 }
 .main-reviews-items{
@@ -417,7 +429,7 @@ button:hover{
     background-size: cover;
     color: var(--white);
     text-align: center;
-    padding: 60px 0px;
+    padding: 3.75rem 0px;
 }
 #stylish-design hr{
     background-color: var(--white);
@@ -426,27 +438,27 @@ button:hover{
 #stylish-design-btn{
     border: 1px solid var(--white);
     background-color: transparent;
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
     color: var(--white);
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 #contact-us-form-container{
     text-align: center;
-    padding: 40px 0px;
+    padding: 2.5rem 0px;
 }
 #contact-us-form{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     display: flex;
     justify-content: space-around;
 }
 #contact-us-form input{
     border: none;
     border-bottom: 1px solid var(--border-color);
-    padding: 15px 0px;
-    padding-left: 20px;
+    padding: 0.938rem 0px;
+    padding-left: 1.25rem;
     color: var(--paragraph-color);
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
 }
 
 #contact-us-form input:focus{
@@ -487,15 +499,80 @@ button:hover{
 #contact-us-btn{
     border: none;
     background-color: var(--primary-color);
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     color: var(--white);
     border-radius: 4px;
 }
 footer{
     background-color: var(--black);
-    padding: 20px 0px;
+    padding: 1.25rem 0px;
     text-align: center;
 }
 footer img{
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
+}
+
+@media(max-width:900px){
+    #introduction-sub-container{
+        flex-direction: column;
+    }
+    #introduction-background-section{
+        height: auto;
+    }
+    #introduction-right-side{
+        margin: 50px 0px;
+    }
+    #building-sub-container{
+        flex-direction: column;
+    }
+    #building-second-item{
+        text-align: center;
+        margin:40px 0px
+    }
+    #sub-list-section{
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width:600px){
+    #sub-header{
+        flex-direction: column;
+    }
+    #navigation ul{
+        flex-direction: column;
+        padding: 0px;
+    }
+    #navigation ul li{
+        margin: 1.5rem 0px;
+    }
+    #building-first-item{
+        flex-direction: column;
+    }
+    #main-tabs-section{
+        margin-bottom: 1.5rem;
+    }
+    .sub-list-icon-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #main-pricing-container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .main-pricing-container-item{
+        margin-bottom: 2rem;
+    }
+    #main-reviews-container{
+        flex-direction: column;
+    }
+    .main-reviews-items{
+        margin-bottom: 2rem;
+    }
+    #social-media-sub-container{
+        flex-direction: column;
+    }
+    #social-media-sub-container div:first-child{
+        margin-bottom: 2rem;
+    }
 }
