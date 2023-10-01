@@ -10,6 +10,11 @@ line-height,
 width,
 font-size
 
+
+by default html element font-size is 16px
+
+1rem = 16px
+
 */
 @font-face {
     font-family: "Myraid Pro Regular";
@@ -38,6 +43,10 @@ header{
     color: var(--white);
     padding: 1.563rem 0px;
 }
+#logo{
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -49,6 +58,8 @@ header{
 }
 #navigation ul{
     display: flex;
+    animation-name: moveInRight;
+    animation-duration: 3s;
 }
 #navigation ul li{
     list-style-type: none;
@@ -513,6 +524,9 @@ footer img{
 }
 
 @media(max-width:900px){
+    html{
+        font-size: 14px;
+    }
     #introduction-sub-container{
         flex-direction: column;
     }
@@ -536,6 +550,9 @@ footer img{
 
 
 @media(max-width:600px){
+    html{
+        font-size: 13px;
+    }
     #sub-header{
         flex-direction: column;
     }
@@ -575,4 +592,37 @@ footer img{
     #social-media-sub-container div:first-child{
         margin-bottom: 2rem;
     }
+}
+
+
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0; /* gayab hojaegi */
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
