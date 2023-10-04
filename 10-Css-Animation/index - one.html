@@ -10,6 +10,7 @@
             background-color: blue;
             height: 600px;
             width: 600px;
+            position: relative;
         }
         .child{
             background-color: red;
@@ -19,10 +20,12 @@
             transform: translateY(50px); */
             /* transform: translate(50px,50px); */
             transition: transform 1s;
+            /* jab ap transform ki property apply karo to 1 second ka delay ayee */
         }
+        
 
         .parent:hover .child{
-            transform: translate(50px ,50px);
+            transform: translate(100px ,100px);
         }
 
 
