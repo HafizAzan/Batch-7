@@ -7,30 +7,34 @@
   </head>
   <body>
     <div class="bg-primarybackground text-white">
-      <div class="container2 flex justify-between items-center">
+      <div
+        class="container2 flex justify-between items-center flex-col md:flex-row"
+      >
         <div>
           <img src="../dist/images/logo.png" alt="Logo" class="w-full" />
         </div>
         <div>
           <nav>
-            <ul class="flex justify-between">
-              <li class="mr-4">Home</li>
-              <li class="text-green-600">/</li>
-              <li class="mr-4 ml-4">About</li>
-              <li class="text-green-600">/</li>
-              <li class="mr-4 ml-4">Portfolio</li>
-              <li class="text-green-600">/</li>
-              <li class="mr-4 ml-4">Clients</li>
-              <li class="text-green-600">/</li>
-              <li class="mr-4 ml-4">Contacts</li>
-              <li class="text-green-600">/</li>
+            <ul class="flex justify-between flex-col md:flex-row">
+              <li class="mb-2 md:mb-0 md:mr-4">Home</li>
+              <li class="text-green-600 hidden md:inline-block">/</li>
+              <li class="mb-2 md:mb-0 md:mr-4 md:ml-4">About</li>
+              <li class="text-green-600 hidden md:inline-block">/</li>
+              <li class="mb-2 md:mb-0 md:mr-4 md:ml-4">Portfolio</li>
+              <li class="text-green-600 hidden md:inline-block">/</li>
+              <li class="mb-2 md:mb-0 md:mr-4 md:ml-4">Clients</li>
+              <li class="text-green-600 hidden md:inline-block">/</li>
+              <li class="mb-2 md:mb-0 md:mr-4 md:ml-4">Contacts</li>
+              <li class="text-green-600 hidden md:inline-block">/</li>
             </ul>
           </nav>
         </div>
       </div>
     </div>
 
-    <section class="bg-[url('images/banner.jpg')] h-[310px] pt-12">
+    <section
+      class="bg-[url('images/banner.jpg')] h-[310px] pt-12 bg-no-repeat bg-cover"
+    >
       <div class="container2">
         <h2 class="text-6xl text-white mb-3">WE KNOW WEB DESIGN</h2>
         <p class="text-white text-xl">
@@ -44,9 +48,9 @@
     </section>
 
     <section class="container2">
-      <div class="flex justify-between text-center mt-10">
+      <div class="flex justify-between text-center mt-10 flex-col md:flex-row">
         <div class="basis-[30%]">
-          <img src="../dist/images/cs-1.png" />
+          <img src="../dist/images/cs-1.png" class="mx-auto md-mx-0" />
           <h2 class="text-headingcolor text-2xl my-3">Web Design</h2>
           <p class="text-headingcolor">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,7 +62,7 @@
         </div>
 
         <div class="basis-[30%]">
-          <img src="../dist/images/cs-2.png" />
+          <img src="../dist/images/cs-2.png" class="mx-auto md-mx-0" />
           <h2 class="text-headingcolor text-2xl my-3">E-Commerce</h2>
           <p class="text-headingcolor">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +74,7 @@
         </div>
 
         <div class="basis-[30%]">
-          <img src="../dist/images/cs-3.png" />
+          <img src="../dist/images/cs-3.png" class="mx-auto md-mx-0" />
           <h2 class="text-headingcolor text-2xl my-3">SEO</h2>
           <p class="text-headingcolor">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -86,15 +90,15 @@
         <hr />
 
         <button
-          class="bg-primary px-3 py-1 text-white absolute top-[-16px] left-[40%]"
+          class="bg-primary px-3 py-1 text-white absolute top-[-16px] left-[33%] md:left-[40%]"
         >
           WHAT OUR CLIENTS SAY
         </button>
       </section>
 
-      <div class="flex justify-between">
+      <div class="flex justify-between flex-col md:flex-row">
         <div class="basis-[25%]">
-          <img src="../dist/images/head.png" />
+          <img src="../dist/images/head.png" class="mx-auto md:-mx-0" />
         </div>
         <div class="mt-4 basis-[70%]">
           <img src="../dist/images/quote.png" />
@@ -109,13 +113,13 @@
         <hr />
 
         <button
-          class="bg-primary px-3 py-1 text-white absolute top-[-16px] left-[40%] min-w-[200px]"
+          class="bg-primary px-3 py-1 text-white absolute top-[-16px] min-w-[200px] left-[33%] md:left-[40%]"
         >
           DROP US A LINE
         </button>
       </section>
 
-      <footer class="flex justify-between">
+      <footer class="flex justify-between flex-col md:flex-row">
         <div>
           <div class="flex items-center my-5">
             <div class="mr-3">
@@ -148,7 +152,7 @@
             <img src="../dist/images/logo-sprite.png" />
           </div>
         </div>
-        <div>
+        <div class="mt-6 md:mt-0">
           <img src="../dist/images/map.png" />
         </div>
       </footer>
