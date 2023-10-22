@@ -93,3 +93,51 @@ git commit -m "this is my second commit"
 git push
 
 
+=========CHECK ALL LOCAL BRANCH=====
+git branch
+
+
+=======Get All Branch From Live=====
+git fetch
+
+
+
+========Switch/Change In to Live Branch===========
+git fetch && git checkout muzammil-work
+
+
+========Switch/Change In to local Branch===========
+git checkout muzammil-work
+or
+git switch muzammil-work
+
+
+=====Create Branch From Command local=====
+git branch new-branch-name
+
+git push --set-upstream origin new-branch-name (ta ke ye wali branch live pr update hojae)
+
+
+
+jis branch me apko merge karwana hai sab se phle us branch me jana hai
+
+git checkout main
+
+git merge abdul-rehman-work (abdul-rehman-work wali branch ko merge kardo main wali branch mein)
+
+
+
+
+
+/*=================================
+=            Git Clone            =
+=================================*/
+
+copy https link from repository
+
+git clone https://github.com/MuzammilRafay/Batch-7.git
+
+
+
+/*=====  End of Git Clone  ======*/
+
