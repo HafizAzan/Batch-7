@@ -141,3 +141,14 @@ git clone https://github.com/MuzammilRafay/Batch-7.git
 
 /*=====  End of Git Clone  ======*/
 
+
+
+/*========================================
+=            GET UPDATED CODE FROM LIVE           =
+========================================*/
+
+git pull
+or
+git fetch && git pull
+
+/*=====  End of GET UPDATED CODE  ======*/
