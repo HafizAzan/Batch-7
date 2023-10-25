@@ -123,7 +123,7 @@ jis branch me apko merge karwana hai sab se phle us branch me jana hai
 
 git checkout main
 
-git merge abdul-rehman-work (abdul-rehman-work wali branch ko merge kardo main wali branch mein)
+git merge branch-name (branch-name wali branch ko merge kardo main wali branch mein)
 
 
 
@@ -152,3 +152,56 @@ or
 git fetch && git pull
 
 /*=====  End of GET UPDATED CODE  ======*/
+
+
+
+
+================Add File In Stash=======
+files & files changes ko hidden kardena github mein
+
+git add .
+git stash
+
+=====Git Stash Listing====
+git stash list
+
+
+
+==========Apply Hidden Changes====
+git stash apply
+
+
+
+
+if you have terminal while inserting the command so enter this values ":wq"
+
+agar apk pas terminal mein kuch commanda ajae to ye enter karien ":wq"
+
+
+<<<<<<head means (current branch change )
+
+<<<<<<< HEAD
+	<h1>Correct Layout Name 11</h1>
+
+=======
+	<h1>Correct Layout Name 2</h1>
+	<h1>Correct Layout Name 2</h1>
+>>>>>>> third-branch
+
+
+<<<<<<incoming branch change
+
+
+
+
+
+=======How to live in github ====
+
+
+go to your repository
+setting -> pages -> select branch
+
+
+wait for a whiile then refresh your page
+
+
