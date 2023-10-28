@@ -205,3 +205,35 @@ setting -> pages -> select branch
 wait for a whiile then refresh your page
 
 
+
+
+===============Apply Specific Stash Files =========
+git stash apply stash@{0}
+
+
+
+=========Add Stash Name ==== 
+
+git stash push -m "message"
+
+
+
+
+https://www.w3schools.com/git/git_remote_fork.asp?remote=github
+
+
+
+// pick another commit from another branch (so it will give you all work for this commit in to your current branch)
+
+
+
+git cherry-pickup 778343b4599d923e625dd1b7dbc43f5070d1a915
+
+
+/*=====================================================
+=            YOU CAN TRY ANOTHER PLATFORMS            =
+=====================================================*/
+GITLAB
+BITBUCKET
+/*=====  End of YOU CAN TRY ANOTHER PLATFORMS  ======*/
+
